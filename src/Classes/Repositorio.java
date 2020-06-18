@@ -16,7 +16,7 @@ public class Repositorio {
     private ArrayList<TipoPagamento> tipoPagamentos = new ArrayList<TipoPagamento>();
     private ArrayList<Transportadora> transportadoras = new ArrayList<Transportadora>();
     private ArrayList<Voucher> vouchers = new ArrayList<Voucher>();
-    private ArrayList<entradaNovaEncomeda> entradaNovaEncomedas = new ArrayList<entradaNovaEncomeda>();
+    private ArrayList<EntradaNovaEncomeda> entradaNovaEncomedas = new ArrayList<EntradaNovaEncomeda>();
 
     void adicionaUtilizador(Utilizador utilizador){
         utilizadores.add(utilizador);
@@ -66,7 +66,7 @@ public class Repositorio {
         vouchers.add(voucher);
     }
 
-    void adicionaEntradaNovaEncomenda(entradaNovaEncomeda entradaNovaEncomeda){
+    void adicionaEntradaNovaEncomenda(EntradaNovaEncomeda entradaNovaEncomeda){
         entradaNovaEncomedas.add(entradaNovaEncomeda);
     }
 }

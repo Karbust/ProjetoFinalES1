@@ -19,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dVUZRWVECsP7hadYOFeEEEAXJV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,7 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -68,26 +71,30 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1085" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040/-1024.0.1024.728@0.0.2560.1040" timestamp="1592513489945" />
+    <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592516682433">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040/-1024.0.1024.728@0.0.2560.1040" timestamp="1592516682433" />
     <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1592511148435">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040/-1024.0.1024.728@0.0.2560.1040" timestamp="1592511148435" />
-    <state width="2517" height="203" key="GridCell.Tab.0.bottom" timestamp="1592514762356">
+    <state width="2517" height="203" key="GridCell.Tab.0.bottom" timestamp="1592516811435">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="203" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1024.0.1024.728@0.0.2560.1040" timestamp="1592514762356" />
-    <state width="2517" height="203" key="GridCell.Tab.0.center" timestamp="1592514762356">
+    <state width="2517" height="203" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1024.0.1024.728@0.0.2560.1040" timestamp="1592516811435" />
+    <state width="2517" height="203" key="GridCell.Tab.0.center" timestamp="1592516811435">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="203" key="GridCell.Tab.0.center/0.0.2560.1040/-1024.0.1024.728@0.0.2560.1040" timestamp="1592514762356" />
-    <state width="2517" height="203" key="GridCell.Tab.0.left" timestamp="1592514762356">
+    <state width="2517" height="203" key="GridCell.Tab.0.center/0.0.2560.1040/-1024.0.1024.728@0.0.2560.1040" timestamp="1592516811435" />
+    <state width="2517" height="203" key="GridCell.Tab.0.left" timestamp="1592516811434">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="203" key="GridCell.Tab.0.left/0.0.2560.1040/-1024.0.1024.728@0.0.2560.1040" timestamp="1592514762356" />
-    <state width="2517" height="203" key="GridCell.Tab.0.right" timestamp="1592514762356">
+    <state width="2517" height="203" key="GridCell.Tab.0.left/0.0.2560.1040/-1024.0.1024.728@0.0.2560.1040" timestamp="1592516811434" />
+    <state width="2517" height="203" key="GridCell.Tab.0.right" timestamp="1592516811435">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="203" key="GridCell.Tab.0.right/0.0.2560.1040/-1024.0.1024.728@0.0.2560.1040" timestamp="1592514762356" />
+    <state width="2517" height="203" key="GridCell.Tab.0.right/0.0.2560.1040/-1024.0.1024.728@0.0.2560.1040" timestamp="1592516811435" />
     <state x="760" y="94" key="SettingsEditor" timestamp="1592512482598">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

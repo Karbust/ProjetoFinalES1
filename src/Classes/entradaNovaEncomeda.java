@@ -4,8 +4,8 @@ import java.time.LocalDate;
 
 public class EntradaNovaEncomeda {
 
-    LocalDate data;
-    Encomenda encomenda;
+    private LocalDate data;
+    private Encomenda encomenda;
 
     public EntradaNovaEncomeda(LocalDate data, Encomenda encomenda) {
         this.data = data;

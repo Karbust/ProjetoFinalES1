@@ -3,13 +3,13 @@ package classes;
 public class Encomenda {
 
     private int nEnc;
-    private RequesicaoEncomeda requesicao;
+    private RequesicaoEncomenda requesicao;
     private Funcionario funcionario;
     private Estado estado;
     private Transportadora transportadora;
     private Feedback feedback;
 
-    public Encomenda(int nEnc, RequesicaoEncomeda requesicao, Funcionario funcionario, Estado estado, Transportadora transportadora, Feedback feedback) {
+    public Encomenda(int nEnc, RequesicaoEncomenda requesicao, Funcionario funcionario, Estado estado, Transportadora transportadora, Feedback feedback) {
         this.nEnc = nEnc;
         this.requesicao = requesicao;
         this.funcionario = funcionario;
@@ -26,11 +26,11 @@ public class Encomenda {
         this.nEnc = nEnc;
     }
 
-    public RequesicaoEncomeda getRequesicao() {
+    public RequesicaoEncomenda getRequesicao() {
         return requesicao;
     }
 
-    public void setRequesicao(RequesicaoEncomeda requesicao) {
+    public void setRequesicao(RequesicaoEncomenda requesicao) {
         this.requesicao = requesicao;
     }
 

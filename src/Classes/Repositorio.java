@@ -11,12 +11,12 @@ public class Repositorio {
     private ArrayList<Feedback> feedbacks = new ArrayList<Feedback>();
     private ArrayList<Funcionario> funcionarios = new ArrayList<Funcionario>();
     private ArrayList<Pagamento> pagamentos = new ArrayList<Pagamento>();
-    private ArrayList<RequesicaoEncomeda> requesicaoEncomedas = new ArrayList<RequesicaoEncomeda>();
+    private ArrayList<RequesicaoEncomenda> requesicaoEncomendas = new ArrayList<RequesicaoEncomenda>();
     private ArrayList<SendEmail> sendEmails = new ArrayList<SendEmail>();
     private ArrayList<TipoPagamento> tipoPagamentos = new ArrayList<TipoPagamento>();
     private ArrayList<Transportadora> transportadoras = new ArrayList<Transportadora>();
     private ArrayList<Voucher> vouchers = new ArrayList<Voucher>();
-    private ArrayList<EntradaNovaEncomeda> entradaNovaEncomedas = new ArrayList<EntradaNovaEncomeda>();
+    private ArrayList<EntradaNovaEncomenda> entradaNovaEncomendas = new ArrayList<EntradaNovaEncomenda>();
 
     void adicionaUtilizador(Utilizador utilizador){
         utilizadores.add(utilizador);
@@ -46,8 +46,8 @@ public class Repositorio {
         pagamentos.add(pagamento);
     }
 
-    void adicionaRequesicaoEncomenda(RequesicaoEncomeda requesicaoEncomeda){
-        requesicaoEncomedas.add(requesicaoEncomeda);
+    void adicionaRequesicaoEncomenda(RequesicaoEncomenda requesicaoEncomenda){
+        requesicaoEncomendas.add(requesicaoEncomenda);
     }
 
     void adicionaSendEmail(SendEmail sendEmail){
@@ -66,7 +66,7 @@ public class Repositorio {
         vouchers.add(voucher);
     }
 
-    void adicionaEntradaNovaEncomenda(EntradaNovaEncomeda entradaNovaEncomeda){
-        entradaNovaEncomedas.add(entradaNovaEncomeda);
+    void adicionaEntradaNovaEncomenda(EntradaNovaEncomenda entradaNovaEncomenda){
+        entradaNovaEncomendas.add(entradaNovaEncomenda);
     }
 }

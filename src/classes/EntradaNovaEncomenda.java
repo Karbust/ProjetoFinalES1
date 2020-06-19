@@ -2,12 +2,12 @@ package classes;
 
 import java.time.LocalDate;
 
-public class EntradaNovaEncomeda {
+public class EntradaNovaEncomenda {
 
     private LocalDate data;
     private Encomenda encomenda;
 
-    public EntradaNovaEncomeda(LocalDate data, Encomenda encomenda) {
+    public EntradaNovaEncomenda(LocalDate data, Encomenda encomenda) {
         this.data = data;
         this.encomenda = encomenda;
     }

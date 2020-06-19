@@ -2,7 +2,7 @@ package classes;
 
 import java.time.LocalDate;
 
-public class RequesicaoEncomeda {
+public class RequesicaoEncomenda {
 
     private LocalDate data;
     private Livro livro;
@@ -13,7 +13,7 @@ public class RequesicaoEncomeda {
     private Pagamento pagamento;
     private boolean validacao;
 
-    public RequesicaoEncomeda(LocalDate data, Livro livro, int qt, Utilizador cliente, String morada, Voucher voucher, Pagamento pagamento, boolean validacao) {
+    public RequesicaoEncomenda(LocalDate data, Livro livro, int qt, Utilizador cliente, String morada, Voucher voucher, Pagamento pagamento, boolean validacao) {
         this.data = data;
         this.livro = livro;
         this.qt = qt;

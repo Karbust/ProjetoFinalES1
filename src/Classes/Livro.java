@@ -36,4 +36,16 @@ public class Livro {
     public void setStock(boolean stock) {
         this.stock = stock;
     }
+
+    @Override
+    public String toString() {
+        if(isStock()==true){
+            return "<" +
+                        " Nome= " + this.getNome() +
+                        " ISBN= " + this.getISBN()
+                        + " >"
+                        ;
+            }
+        return "Livro nao esta em stock";
+        }
 }

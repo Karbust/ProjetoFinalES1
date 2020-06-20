@@ -26,4 +26,6 @@ public class SendEmail {
     public void setMensagem(String mensagem) {
         Mensagem = mensagem;
     }
+
+
 }

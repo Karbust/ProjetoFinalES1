@@ -2,7 +2,7 @@ package classes;
 
 import java.time.LocalDate;
 
-public class RequesicaoEncomenda {
+public class RequisicaoEncomenda {
 
     private LocalDate data;
     private Livro livro;
@@ -13,7 +13,7 @@ public class RequesicaoEncomenda {
     private Pagamento pagamento;
     private boolean validacao;
 
-    public RequesicaoEncomenda(LocalDate data, Livro livro, int qt, Utilizador cliente, String morada, Voucher voucher, Pagamento pagamento, boolean validacao) {
+    public RequisicaoEncomenda(LocalDate data, Livro livro, int qt, Utilizador cliente, String morada, Voucher voucher, Pagamento pagamento, boolean validacao) {
         this.data = data;
         this.livro = livro;
         this.qt = qt;
@@ -86,5 +86,19 @@ public class RequesicaoEncomenda {
 
     public void setValidacao(boolean validacao) {
         this.validacao = validacao;
+    }
+
+    @Override
+    public String toString() {
+        return "<" +
+                " Data= " + this.getData() +
+                " Cliente= " + this.getCliente() +
+                " Livro= " + this.getLivro() +
+                " Quantidade= " + this.getQt() +
+                " Morada= " + this.getMorada() +
+                " Voucher = " + this.getVoucher() +
+                " Pagamento = " + this.getPagamento()
+                + " >"
+                ;
     }
 }

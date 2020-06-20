@@ -27,4 +27,13 @@ public class EntradaNovaEncomenda {
     public void setEncomenda(Encomenda encomenda) {
         this.encomenda = encomenda;
     }
+
+    @Override
+    public String toString() {
+        return "<" +
+                "Data =" + this.getData() +
+                " Encomenda =" + this.getEncomenda() +
+                 " >"
+                ;
+    }
 }

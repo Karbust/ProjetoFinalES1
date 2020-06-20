@@ -26,4 +26,13 @@ public class Feedback {
     public void setObs(String obs) {
         this.obs = obs;
     }
+
+    @Override
+    public String toString() {
+        return "<" +
+                " Avaliacao= " + this.getAvaliacao() +
+                " Observacoes= " + this.getObs()
+                + " >"
+                ;
+    }
 }

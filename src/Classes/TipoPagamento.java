@@ -45,4 +45,19 @@ public class TipoPagamento {
     public void setPaypal(boolean paypal) {
         this.paypal = paypal;
     }
+
+    @Override
+    public String toString() {
+        if(isMbway()==true){
+            return "MBWAY";
+        }else if(isMultibanco()==true){
+            return "Multibanco";
+        }else if(isPaypal()==true){
+            return "PayPal";
+        }else if(isTransfarencia()==true){
+            return "Transferencia";
+        }
+
+        return "Pagamento nao efetuado";
+    }
 }

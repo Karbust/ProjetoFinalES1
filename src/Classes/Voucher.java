@@ -25,4 +25,16 @@ public class Voucher {
     public void setValidacao(boolean validacao) {
         this.validacao = validacao;
     }
+
+    @Override
+    public String toString() {
+        if(isValidacao()==true) {
+            return "<" +
+                    " Voucher= " + this.getVoucher()
+                    + " >"
+                    ;
+        }
+
+        return "Voucher nao existe";
+    }
 }

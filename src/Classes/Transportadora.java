@@ -45,4 +45,15 @@ public class Transportadora {
     public void setAssinatura(boolean assinatura) {
         this.assinatura = assinatura;
     }
+
+    @Override
+    public String toString() {
+        return "<" +
+                " Nome= " + this.getNome() +
+                " Contacto= " + this.getContacto() +
+                " Morada= " + this.getMorada()
+                + " >"
+                ;
+    }
+
 }

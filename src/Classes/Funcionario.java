@@ -5,6 +5,11 @@ public class Funcionario {
     private String nome;
     private int nFunc;
 
+    public Funcionario(String nome, int nFunc) {
+        this.nome = nome;
+        this.nFunc = nFunc;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -21,8 +26,12 @@ public class Funcionario {
         this.nFunc = nFunc;
     }
 
-    public Funcionario(String nome, int nFunc) {
-        this.nome = nome;
-        this.nFunc = nFunc;
+    @Override
+    public String toString() {
+        return "<" +
+                " NFunc= " + this.getnFunc() +
+                " Nome= " + this.getNome()
+                + " >"
+                ;
     }
 }

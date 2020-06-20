@@ -3,15 +3,15 @@ package classes;
 public class Encomenda {
 
     private int nEnc;
-    private RequesicaoEncomenda requesicao;
+    private RequisicaoEncomenda requisicao;
     private Funcionario funcionario;
     private Estado estado;
     private Transportadora transportadora;
     private Feedback feedback;
 
-    public Encomenda(int nEnc, RequesicaoEncomenda requesicao, Funcionario funcionario, Estado estado, Transportadora transportadora, Feedback feedback) {
+    public Encomenda(int nEnc, RequisicaoEncomenda requisicao, Funcionario funcionario, Estado estado, Transportadora transportadora, Feedback feedback) {
         this.nEnc = nEnc;
-        this.requesicao = requesicao;
+        this.requisicao = requisicao;
         this.funcionario = funcionario;
         this.estado = estado;
         this.transportadora = transportadora;
@@ -26,12 +26,12 @@ public class Encomenda {
         this.nEnc = nEnc;
     }
 
-    public RequesicaoEncomenda getRequesicao() {
-        return requesicao;
+    public RequisicaoEncomenda getRequesicao() {
+        return requisicao;
     }
 
-    public void setRequesicao(RequesicaoEncomenda requesicao) {
-        this.requesicao = requesicao;
+    public void setRequesicao(RequisicaoEncomenda requesicao) {
+        this.requisicao = requesicao;
     }
 
     public Funcionario getFuncionario() {
@@ -64,5 +64,18 @@ public class Encomenda {
 
     public void setFeedback(Feedback feedback) {
         this.feedback = feedback;
+    }
+
+    @Override
+    public String toString() {
+        return " <" +
+                " NEnc= " + this.getnEnc() +
+                " Estado= " + this.getEstado() +
+                " Funcionario= " + this.getFuncionario() +
+                " Transportadora= " + this.getTransportadora() +
+                " Feedback= " + this.getFeedback() +
+                " Requesicao=" + this.getRequesicao()
+                + " >"
+                ;
     }
 }

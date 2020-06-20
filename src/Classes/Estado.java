@@ -35,4 +35,17 @@ public class Estado {
     public void setEntregue(boolean entregue) {
         this.entregue = entregue;
     }
+
+    @Override
+    public String toString() {
+        if(isProcessada()==true){
+            return "Em processamento";
+        }else if(isEnviada()==true){
+            return "Enviada";
+        }else if(isEntregue()){
+            return "Entregue";
+        }
+
+        return "Encomenda Inexistente";
+    }
 }

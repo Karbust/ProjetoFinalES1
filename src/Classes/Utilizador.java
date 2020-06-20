@@ -35,4 +35,14 @@ public class Utilizador {
     public String getPassword() {
         return password;
     }
+
+    @Override
+    public String toString() {
+        return "<" +
+                " Nome= " + this.getNome() +
+                " Email= " + this.getEmail() +
+                " Password= " + this.getPassword()
+                + " >"
+                ;
+    }
 }
